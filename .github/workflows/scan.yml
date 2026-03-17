@@ -34,4 +34,5 @@ jobs:
         with:
           command: cves
           image: ghcr.io/${{ github.repository }}:latest
+          github-token: ${{ secrets.GITHUB_TOKEN }}
 
