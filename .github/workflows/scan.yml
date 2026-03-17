@@ -33,5 +33,5 @@ jobs:
         uses: docker/scout-action@v1
         with:
           command: cves
-          immage: ghcr.io/${{ github.repository }}:latest
+          image: ghcr.io/${{ github.repository }}:latest
 
